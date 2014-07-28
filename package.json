@@ -1,0 +1,20 @@
+{
+  "name": "plotly-loading-animation",
+  "version": "0.0.1",
+  "description": "",
+  "main": "loading_module.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexander-daniel/plotly-loading-animation.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexander-daniel/plotly-loading-animation/issues"
+  },
+  "homepage": "https://github.com/alexander-daniel/plotly-loading-animation"
+}
