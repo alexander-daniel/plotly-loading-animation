@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/alexander-daniel/plotly-loading-animation/issues"
   },
-  "homepage": "https://github.com/alexander-daniel/plotly-loading-animation"
+  "homepage": "https://github.com/alexander-daniel/plotly-loading-animation",
+  "dependencies": {
+    "ecstatic": "^0.5.4"
+  }
 }
