@@ -1,4 +1,3 @@
-(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 'use strict';
 
 module.exports = LoadingBars;
@@ -76,29 +75,3 @@ proto.changeSize = function (bar) {
 	}
 };
 
-
-},{}],2:[function(require,module,exports){
-'use strict';
-
-var loadingBars = require('./index')({
-	canvasId: 'loading_animation',
-	maxBarHeight: 25,
-	Width:50,
-	animateSpeed:30
-});
-
-// on ready, start animatin' !
-$(function() {
-  loadingBars.startAnimation();
-});
-
-
-// stop animation after 5 seconds
-setTimeout(function () {
-	loadingBars.stopAnimation();
-},5000);
-
-
-
-
-},{"./index":1}]},{},[2])

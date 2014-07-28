@@ -1,18 +1,21 @@
 'use strict';
 
-var loadingAnimation = require('./loading_module.js')({
-	canvasId: 'loading_animation'
+var loadingBars = require('./index')({
+	canvasId: 'loading_animation',
+	maxBarHeight: 25,
+	Width:50,
+	animateSpeed:30
 });
 
 // on ready, start animatin' !
 $(function() {
-  loadingAnimation.animateBars();
+  loadingBars.startAnimation();
 });
 
 
 // stop animation after 5 seconds
 setTimeout(function () {
-	loadingAnimation.stopAnimation();
+	loadingBars.stopAnimation();
 },5000);
 
 
