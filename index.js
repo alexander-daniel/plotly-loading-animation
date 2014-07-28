@@ -13,10 +13,15 @@ function LoadingBars (config) {
   	self.canvas = document.getElementById(self.canvasId);
 	self.ctx = self.canvas.getContext('2d');
 
-	self.maxBarHeight = config.maxBarHeight || self.canvas.height || 100;
+	self.maxBarHeight = config.maxBarHeight || 100;
 	self.Width = config.Width || 200;
 	self.animateSpeed = config.animateSpeed || 10;
 	self.animating = false;
+
+	self.canvas.height = self.maxBarHeight;
+	self.canvas.width = self.Width + (self.Width * 0.125);
+	console.log(self.canvas.height);
+	console.log(self.canvas.width);
 
 	self.BARS = [
 		{x:(self.Width * 0.1), height:(self.maxBarHeight * 0.1), direction:'up'},
