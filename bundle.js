@@ -15,9 +15,9 @@ $(function() {
 
 
 // stop animation after 5 seconds
-setTimeout(function () {
-	loadingBars.stopAnimation();
-},5000);
+// setTimeout(function () {
+// 	loadingBars.stopAnimation();
+// },5000);
 
 
 
