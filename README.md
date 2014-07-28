@@ -32,6 +32,8 @@ The module will automatically re-size the canvas to use the dimensions you provi
 
 
 ### Methods
-loadingBars.startAnimation();
-loadingBars.stopAnimation();
+`loadingBars.startAnimation();` : Start Animation 	
+`loadingBars.stopAnimation();` : Stops Animation 	
+
+`loadingBars.animating` : returns true if currently animating
 
