@@ -1,0 +1,24 @@
+{
+  "name": "plotly-loading-animation",
+  "main": "index.js",
+  "version": "0.0.2",
+  "homepage": "https://github.com/alexander-daniel/plotly-loading-animation",
+  "authors": [
+    "plotly alexandre@plot.ly"
+  ],
+  "description": "ploty's loading animation",
+  "keywords": [
+    "canvas",
+    "loading",
+    "animation",
+    "plotly"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
