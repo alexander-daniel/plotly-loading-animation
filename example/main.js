@@ -2,8 +2,8 @@
 
 var LoadingBars = require('../');
 
-var = loadingBars = new LoadingBars('loading_animation', {
-	width: 100,
+var loadingBars = new LoadingBars('loading_animation', {
+	width: 1000,
 	height: 1000,
 	color: 'purple'
 });
